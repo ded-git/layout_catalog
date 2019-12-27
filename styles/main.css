@@ -20,7 +20,7 @@
   .head-menu .logo > {
     width: 20px;
     height: 20px; }
-  .head-menu .head-menu__navigation {
+  .head-menu .nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -33,34 +33,38 @@
     width: 759px;
     height: 60px;
     color: #000; }
-    .head-menu .head-menu__navigation .navigation__item {
+    .head-menu .nav .nav__list {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      line-height: 60px;
-      color: #000; }
-      .head-menu .head-menu__navigation .navigation__item .navigation__link {
-        color: #000;
-        text-decoration: none; }
-      .head-menu .head-menu__navigation .navigation__item .navigation__link:hover {
-        color: #00acdc; }
-      .head-menu .head-menu__navigation .navigation__item .is-active {
-        position: relative;
-        color: #00acdc; }
-      .head-menu .head-menu__navigation .navigation__item .is-active::after {
-        content: "";
-        position: absolute;
-        height: 4px;
-        border-radius: 8px;
-        width: 100%;
-        background-color: #00acdc;
-        bottom: 0;
-        left: 0; }
-    .head-menu .head-menu__navigation .navigation__item:not(:last-of-type) {
-      padding-right: 20px; }
+      display: flex; }
+      .head-menu .nav .nav__list .nav__item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        line-height: 60px;
+        color: #000; }
+        .head-menu .nav .nav__list .nav__item .nav__link {
+          color: #000;
+          text-decoration: none; }
+        .head-menu .nav .nav__list .nav__item .nav__link:hover {
+          color: #00acdc; }
+        .head-menu .nav .nav__list .nav__item .is-active {
+          position: relative;
+          color: #00acdc; }
+        .head-menu .nav .nav__list .nav__item .is-active::after {
+          content: "";
+          position: absolute;
+          height: 4px;
+          border-radius: 8px;
+          width: 100%;
+          background-color: #00acdc;
+          bottom: 0;
+          left: 0; }
+      .head-menu .nav .nav__list .nav__item:not(:last-of-type) {
+        padding-right: 20px; }
 
 .container {
   display: -webkit-box;
@@ -177,18 +181,6 @@
           box-sizing: border-box; }
 
 body {
-  margin: 0;
-  /* font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 12px; */ }
-
-/* // body {
-//   margin: 0;
-//   font-family: "Roboto", "Georgia", serif;
-//   font-weight: normal;
-//   font-size: 11px;
-//   line-height: 13px;
-//   color: #000;
-// } */
+  margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
