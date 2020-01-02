@@ -164,18 +164,18 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 15px; }
-  .rate .rate__stars {
+  .rate__stars {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .rate .rate__stars .rate__star {
+    .rate__stars .rate__star {
       background: url("../images/star-active.svg") center no-repeat;
       height: 15px;
       width: 15px;
       margin-right: 4px; }
-    .rate .rate__stars .rate__star:last-child {
+    .rate__stars .rate__star:last-child {
       background: url("../images/star.svg") center no-repeat; }
-  .rate .ate__response {
+  .rate__response {
     margin-top: 1px; }
 
 * {
