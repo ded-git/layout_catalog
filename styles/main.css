@@ -10,10 +10,7 @@
   justify-items: space-between;
   background: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 12px; }
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
   .head-menu .logo {
     display: grid;
     justify-items: end; }
@@ -55,11 +52,12 @@
 
 .container {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 200px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   max-width: 944px;
-  min-height: 856px;
-  margin: 50px auto;
-  justify-items: space-between; }
+  margin: 50px auto; }
 
 .product-card {
   -webkit-box-sizing: border-box;
@@ -153,6 +151,8 @@
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 12px; }
 
 /*# sourceMappingURL=main.css.map */
